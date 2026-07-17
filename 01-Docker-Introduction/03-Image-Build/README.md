@@ -1,3 +1,4 @@
+```
     1  mkdir 03-Image-Build
     2  ls
     3  cd 03-Image-Build/
@@ -74,3 +75,4 @@
    74  ls
    75  history 
    76  history > README.md 
+```
