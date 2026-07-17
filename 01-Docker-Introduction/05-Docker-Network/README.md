@@ -1,3 +1,4 @@
+```
   155  git add . ; git commit -m "Docker" ; git push 
   156  docker ps 
   157  docker kill $(docker ps -q ) 
@@ -67,6 +68,4 @@
   221  mkdir 05-Docker-Network 
   222  ls
   223  cd 05-Docker-Network/
-  224  ls
-  225  history 
-  226  history >> README.md 
+```
