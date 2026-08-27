@@ -1,0 +1,22 @@
+Volumes" 
+
+- Local Vol 
+
+- PV ( nfsvol )
+  NFS Server 
+   - NFS Server : 172.31.0.100 
+   - Path : /mysharedvolume/[app1..app20] 
+
+- PVC 
+  - myclaim -> nfsvol 
+    -> 1GB 
+  
+
+- SC 
+  - Agent or POD : aws.s3 ; cred
+
+-> pv: app1-pvc -> bound -> pvc: :wq!app1-pvc 
+
+
+- pvc: app1-pvc : size 10G 
+
